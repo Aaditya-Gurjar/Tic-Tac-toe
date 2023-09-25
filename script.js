@@ -22,15 +22,8 @@ function initGame(){
     counter = 0;
     boxes.forEach((box, index) => {
         
-        // // box = "";
-        // boxes.innerText = "";
-        // // boxes[index].classList = `box`;
-        // boxes.classList = `box box${index+1}`;
-        // // boxes[index].style.pointerEvents = "all";
-
         box.innerText = "";
         boxes[index].style.pointerEvents = "all";
-        //one more thing is missing, initialise box with css properties again
         box.classList = `box box${index+1}`;
 
     });
